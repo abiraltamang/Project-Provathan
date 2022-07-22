@@ -5,13 +5,13 @@ const WinnerImagelist = () => {
   const itemData = [
     {
       img: "/images/winner5.jpg",
-      title: "Winnder of Gandaki Landscape",
+      title: "Winner of Gandaki Landscape",
       author: "@hjrc33",
       cols: 2,
     },
     {
       img: "/images/winner6.jpg",
-      title: "Wiiner of Kathmandu",
+      title: "Winner of Kathmandu",
       author: "@arwinneil",
       rows: 2,
       cols: 2,
@@ -24,7 +24,7 @@ const WinnerImagelist = () => {
     },
     {
       img: "/images/winner1.jpg",
-      title: "Wiiner of Lifestyle at Mustang",
+      title: "Winner of Lifestyle at Mustang",
       author: "@bkristastucchio",
       rows: 2,
       cols: 2,
@@ -32,7 +32,7 @@ const WinnerImagelist = () => {
     },
     {
       img: "/images/winner2.jpg",
-      title: "Winner of Lumbini provinc",
+      title: "Winner of Lumbini province",
       author: "@rollelflex_graphy726",
     },
     {
@@ -42,7 +42,7 @@ const WinnerImagelist = () => {
     },
     {
       img: "/images/winner4.jpg",
-      title: "Winner of Gorkhar lifestyle",
+      title: "Winner of Gorkha lifestyle",
       author: "@nolanissac",
       cols: 2,
     },
