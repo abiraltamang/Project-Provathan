@@ -13,6 +13,7 @@ const Navbar = () => {
         <div>Ongoing events</div>
         <div>Contact Us</div>
         <div>About Us</div>
+        <div>Showcase</div>
       </div>
       <div>
         <button className="px-3 border-[1px] border-red-500 h-5 rounded-xl">
