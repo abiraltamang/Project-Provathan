@@ -3,7 +3,7 @@ import React from "react";
 const Login = () => {
   return (
     <div className="base-container" ref={this.props.containerRef}>
-      <div className="header">Login</div>
+      <div className="header ">Login</div>
       <div className="content">
         <div className="form">
           <div className="form-group">
