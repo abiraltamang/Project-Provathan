@@ -12,7 +12,10 @@ const Navbar = () => {
         <div>Categories</div>
         <div>Upcoming events</div>
         <div>Ongoing events</div>
-        <div>Contact Us</div>
+        <Link to="/contactus">
+          <div>Contact Us</div>
+        </Link>
+
         <div>About Us</div>
         <div>Showcase</div>
       </div>

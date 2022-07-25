@@ -4,6 +4,7 @@ import Carousel from "./components/Carousel";
 import Login from "./components/user/Login";
 import Register from "./components/user/Register";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Contactus from "./components/Contactus";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<Carousel />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/contactus" element={<Contactus />} />
       </Routes>
     </BrowserRouter>
   );
