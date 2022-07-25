@@ -8,9 +8,9 @@ const EventCard = ({ image, title }) => {
       </div>
       <div className="space-y-3">
         <div className="flex items-start justify-between">
-          <p className="text-4xl font-medium">{title}</p>
+          <p className="text-3xl font-medium">{title}</p>
           <div>
-            <span className="bg-yellow-400">deadline</span>
+            <span className="bg-secondary rounded-md ">deadline</span>
             <span>2022/20/01</span>
           </div>
         </div>
@@ -27,7 +27,13 @@ const EventCard = ({ image, title }) => {
         <p className="font-bold">Prizes</p>
         <div className="pl-10">
           <ul className="list-disc">
-            <li>Environmental Photographers of the Year: 5,000$ cash</li>
+            <li>
+              Environmental Photographers of the Year:{" "}
+              <span className="font-bold underline underline-offset-4	">
+                5,000$
+              </span>{" "}
+              cash
+            </li>
             <li>Lorem ipsum dolor sit.</li>
             <li>Lorem ipsum dolor sit Lorem, ipsum dolor.</li>
           </ul>
