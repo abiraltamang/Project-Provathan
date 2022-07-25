@@ -4,6 +4,25 @@ import ImageList from "../events/ImageList";
 const WinnerImagelist = () => {
   const itemData = [
     {
+      img: "/images/winner5.jpg",
+      title: "Winnder of Gandaki Landscape",
+      author: "@hjrc33",
+      cols: 2,
+    },
+    {
+      img: "/images/winner6.jpg",
+      title: "Wiiner of Kathmandu",
+      author: "@arwinneil",
+      rows: 2,
+      cols: 2,
+      featured: true,
+    },
+    {
+      img: "/images/winner1.jpg",
+      title: "Winner of LIVEstock at Manang",
+      author: "@tjdragotta",
+    },
+    {
       img: "/images/winner1.jpg",
       title: "Wiiner of Lifestyle at Mustang",
       author: "@bkristastucchio",
@@ -13,38 +32,19 @@ const WinnerImagelist = () => {
     },
     {
       img: "/images/winner2.jpg",
-      title: "Burger",
+      title: "Winner of Lumbini provinc",
       author: "@rollelflex_graphy726",
     },
     {
       img: "/images/winner3.jpg",
-      title: "Camera",
+      title: "Winner of Struggle of nakabandi",
       author: "@helloimnik",
     },
     {
       img: "/images/winner4.jpg",
-      title: "Coffee",
+      title: "Winner of Gorkhar lifestyle",
       author: "@nolanissac",
       cols: 2,
-    },
-    {
-      img: "/images/winner5.jpg",
-      title: "Hats",
-      author: "@hjrc33",
-      cols: 2,
-    },
-    {
-      img: "/images/winner6.jpg",
-      title: "Honey",
-      author: "@arwinneil",
-      rows: 2,
-      cols: 2,
-      featured: true,
-    },
-    {
-      img: "/images/winner1.jpg",
-      title: "Basketball",
-      author: "@tjdragotta",
     },
   ];
 

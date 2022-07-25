@@ -1,10 +1,8 @@
 import React from "react";
 import { Pagination } from "@mui/material";
-import MyDropdown from "./reusable/Dropdown";
 
 import EventCard from "./events/EventCard";
 const UpcomingEvents = () => {
-  const options = ["Upcoming events", "Ongoing events"];
   return (
     <div>
       <div className="space-y-6">

@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="flex items-center justify-between  h-[80px] px-12 bg-[#141414] text-white font-Inter ">
+    <div className="flex items-center justify-between  h-[60px] px-12 bg-white text-black font-Inter ">
       <div className="flex items-center gap-10">
         <div className="flex items-center">
           <img className="h-8 w-8" src="logo192.png" alt="" />

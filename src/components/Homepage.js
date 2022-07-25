@@ -7,7 +7,7 @@ import WinnerImagelist from "./user/WinnerImagelist";
 const Homepage = () => {
   return (
     <div>
-      {/* <Coverpage /> */}
+      <Coverpage />
       {/* <Carousel /> */}
       <UpcomingEvents />
       <WinnerImagelist />
