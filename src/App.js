@@ -4,6 +4,7 @@ import Login from "./components/user/Login";
 import Register from "./components/user/Register";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Contactus from "./components/Contactus";
+import Homepage from "./components/Homepage";
 
 function App() {
   return (
