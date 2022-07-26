@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import "./style.css";
 
 const Register = () => {
   return (
-    <div className="base-container bg-gray-600" ref={this.props.containerRef}>
-      <div className="header  ">Register</div>
+    <div className="base-container">
       <div className="content">
         <div className="form">
           <div className="form-group">
@@ -21,9 +22,14 @@ const Register = () => {
         </div>
       </div>
       <div className="footer">
-        <button type="button" className="btn">
+        <button type="button" className="send-btn top-btn">
           Register
         </button>
+        <Link to="/login">
+          <button type="button" className="send-btn">
+            Login
+          </button>
+        </Link>
       </div>
     </div>
   );
