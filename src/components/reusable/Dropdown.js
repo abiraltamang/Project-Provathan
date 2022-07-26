@@ -1,4 +1,3 @@
-import { OptionUnstyled } from "@mui/base";
 import React from "react";
 
 const Dropdown = ({ options }) => {
@@ -15,7 +14,6 @@ const Dropdown = ({ options }) => {
           bg-blue-600
           text-
           font-medium
-          
           leading-tight
           uppercase
           rounded

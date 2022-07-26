@@ -1,6 +1,5 @@
 import React from "react";
 import Coverpage from "./Coverpage";
-import Carousel from "./Carousel";
 import UpcomingEvents from "./UpcomingEvents";
 import WinnerImagelist from "./user/WinnerImagelist";
 

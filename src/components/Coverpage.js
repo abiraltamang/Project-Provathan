@@ -1,6 +1,4 @@
-import { Brightness1 } from "@mui/icons-material";
 import React from "react";
-import Navbar from "./Navbar";
 
 const Coverpage = () => {
   return (
