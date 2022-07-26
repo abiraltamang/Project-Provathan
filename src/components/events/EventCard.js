@@ -1,6 +1,6 @@
 import React from "react";
 
-const EventCard = ({ image, title }) => {
+const EventCard = ({ image, title, description }) => {
   return (
     <div className="grid grid-cols-2 place-items-center w-[850px]">
       <div>
@@ -14,10 +14,7 @@ const EventCard = ({ image, title }) => {
             <span>2022/20/01</span>
           </div>
         </div>
-        <p>
-          The competition is open to all international photographers, both
-          amateur and professional, and of all ages.
-        </p>
+        <p>{description}</p>
         <p>
           Each entrant may submit up to 3 photographs that encourage humanity to
           take care of our environment.

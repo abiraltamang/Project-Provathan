@@ -12,18 +12,30 @@ const UpcomingEvents = () => {
         <EventCard
           image={"/images/theme1.jpg"}
           title={"Environmental Photographer of the Year"}
+          description={
+            " The competition is open to all international photographers, both amateur and professional, and of all ages."
+          }
         />
         <EventCard
           image={"/images/theme2.jpg"}
           title={"The Allard Prize Photography Competition"}
+          description={
+            " The competition is open to all international photographers, both amateur and professional, and of all ages."
+          }
         />
         <EventCard
           image={"/images/theme3.jpg"}
           title={"SPIE International Day of Light Photo  Contest 2022"}
+          description={
+            " The competition is open to all international photographers, both amateur and professional, and of all ages."
+          }
         />
         <EventCard
           image={"/images/faces.jpg"}
           title={"Face from around the corners of Nepal"}
+          description={
+            " The competition is open to all international photographers, both amateur and professional, and of all ages."
+          }
         />
       </div>
       <div className="flex items-center justify-center py-10">
