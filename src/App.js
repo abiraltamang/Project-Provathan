@@ -5,6 +5,7 @@ import Register from "./components/user/Register";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Contactus from "./components/contactus/Contactus";
 import Homepage from "./components/Homepage";
+import Aboutus from "./components/aboutus/Aboutus"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/contactus" element={<Contactus image="/images/bg1.jpg" />} />
+        <Route path="/aboutus" element={<Aboutus />} />
       </Routes>
     </BrowserRouter>
   );
