@@ -3,9 +3,8 @@ import React from "react";
 const Contactus =()=>{
     return (
     <>
-    THis is contactus form 
+    <div className="contact_info"></div>
     </>
     )
 }
-
 export default Contactus;
