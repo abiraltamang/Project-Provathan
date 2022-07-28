@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+/* * {
+    margin: 0;
+    overflow-x: hidden;
+} */
 
 .secondary-button{
     @apply border-[1px] border-white rounded-xl w-[120px] h-[35px] hover:bg-secondary hover:border-secondary

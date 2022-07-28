@@ -25,6 +25,7 @@ function App() {
         />
         <Route path="/aboutus" element={<Aboutus />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
