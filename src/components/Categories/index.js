@@ -1,9 +1,10 @@
 import React from "react";
+import Gallery from "../Gallery";
 
 const Categories = () => {
   return (
     <div>
-      <p>This is category page</p>
+      <Gallery />
     </div>
   );
 };

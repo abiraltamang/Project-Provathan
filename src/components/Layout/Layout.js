@@ -41,7 +41,6 @@ const Layout = ({ Children }) => {
     default:
       break;
   }
-  console.log(route);
 
   return (
     <>

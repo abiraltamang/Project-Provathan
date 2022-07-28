@@ -1,20 +1,30 @@
 import React from "react";
 import "tw-elements";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Dropdown = () => {
+  const router = useLocation();
   return (
     <div className="flex justify-center">
       <div>
         <div className="dropdown relative">
           <button
-            className="font-Inter flex items-center"
+            className="font-Inter flex items-center "
             type="button"
             id="dropdownMenuButton1"
             data-bs-toggle="dropdown"
             aria-expanded="false"
           >
-            Events
+            <p
+              className={`${
+                router.pathname === "/upcomingevents" ||
+                router.pathname === "/ongoingevents"
+                  ? "style-activelink"
+                  : ""
+              } `}
+            >
+              Events
+            </p>
             <svg
               aria-hidden="true"
               focusable="false"

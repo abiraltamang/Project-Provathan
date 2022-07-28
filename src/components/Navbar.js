@@ -52,12 +52,12 @@ const Navbar = () => {
         </div>
       </div>
       <div className="relative flex items-center gap-3">
-        <div className="absolute left-2">
+        <div className="absolute left-2 ">
           <AiOutlineSearch size={20} />
         </div>
         <input
           id="search-icon-hover"
-          className="w-8 h-8 rounded-[50%] border-[1px] border-dim-dark outline-none text-xs hover:w-40 hover:rounded-2xl hover:duration-300 hover:pl-10 px-4"
+          className="w-8 h-8 rounded-[50%]  border-[1px] border-dim-dark outline-none text-xs hover:w-40 hover:rounded-2xl hover:duration-300 hover:pl-10 px-4"
           type="text"
           placeholder="Search here"
         />
