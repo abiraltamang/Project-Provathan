@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Contactus from "./components/contactus/Contactus";
 import Homepage from "./components/Homepage";
 import Aboutus from "./components/aboutus/Aboutus"
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/contactus" element={<Contactus image="/images/bg1.jpg" />} />
         <Route path="/aboutus" element={<Aboutus />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
