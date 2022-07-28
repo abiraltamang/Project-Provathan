@@ -1,7 +1,6 @@
 import React from "react";
 import { Pagination } from "@mui/material";
 import EventCard from "./events/EventCard";
-import Subcoverpage from "./reusable/Subcoverpage";
 const UpcomingEvents = () => {
   return (
     <div>

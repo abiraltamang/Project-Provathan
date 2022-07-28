@@ -6,7 +6,6 @@ import Subcoverpage from "../reusable/Subcoverpage";
 const Layout = ({ Children }) => {
   const router = useLocation();
   let headername = router.pathname;
-
   let headName = null;
   let detail = null;
   let image = null;

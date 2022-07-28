@@ -10,3 +10,7 @@
 .style-activelink{
     @apply underline decoration-secondary underline-offset-8 decoration-[2px]
 }
+
+#search-icon-hover{
+    transition: width 0.5s;
+}

@@ -1,10 +1,11 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import Dropdown from "./reusable/Dropdown";
+import { AiOutlineSearch } from "react-icons/ai";
 const Navbar = () => {
   const router = useLocation();
   return (
-    <div className="flex items-center justify-between  h-[70px] px-12 bg-white text-black font-Inter ">
+    <div className="  flex items-center justify-between  h-[70px] px-12 bg-white text-black font-Inter ">
       <div className="flex items-center gap-10">
         <Link to="/">
           <div className="flex items-center">
@@ -50,7 +51,16 @@ const Navbar = () => {
           </Link>
         </div>
       </div>
-      <div className="flex items-center gap-3">
+      <div className="relative flex items-center gap-3">
+        <div className="absolute left-2">
+          <AiOutlineSearch size={20} />
+        </div>
+        <input
+          id="search-icon-hover"
+          className="w-8 h-8 rounded-[50%] border-[1px] border-dim-dark outline-none text-xs hover:w-40 hover:rounded-2xl hover:duration-300 hover:pl-10 px-4"
+          type="text"
+          placeholder="Search here"
+        />
         <Link to="/login">
           <button className="px-3 text-sm w-36 h-8 rounded-xl bg-secondary text-white ">
             Login/Register
