@@ -1,10 +1,10 @@
 import React from "react";
-
-import { Link } from "react-router-dom";
-
+import { Link, useLocation } from "react-router-dom";
+import Dropdown from "./reusable/Dropdown";
 const Navbar = () => {
+  const router = useLocation();
   return (
-    <div className="flex items-center justify-between  h-[60px] px-12 bg-white text-black font-Inter ">
+    <div className="flex items-center justify-between  h-[70px] px-12 bg-white text-black font-Inter ">
       <div className="flex items-center gap-10">
         <Link to="/">
           <div className="flex items-center">
@@ -14,20 +14,43 @@ const Navbar = () => {
         </Link>
         <div className="flex gap-6 cursor-pointer ">
           <Link to="/">
-            <div>Home</div>
+            <div
+              className={`${router.pathname === "/" ? "style-activelink" : ""}`}
+            >
+              Home
+            </div>
           </Link>
-          <div>Categories</div>
-          <div>Upcoming events</div>
-          <div>Ongoing events</div>
-          <Link to="/contactus">
-            <div>Contact Us</div>
+          <Link to="/categories">
+            <div
+              className={`${
+                router.pathname === "/categories" ? "style-activelink" : ""
+              }`}
+            >
+              Categories
+            </div>
           </Link>
+          <Dropdown />
           <Link to="/aboutus">
-            <div>About Us</div>
+            <div
+              className={`${
+                router.pathname === "/aboutus" ? "style-activelink" : ""
+              }`}
+            >
+              About Us
+            </div>
+          </Link>
+          <Link to="/contactus">
+            <div
+              className={`${
+                router.pathname === "/contactus" ? "style-activelink" : ""
+              }`}
+            >
+              Contact Us
+            </div>
           </Link>
         </div>
       </div>
-      <div>
+      <div className="flex items-center gap-3">
         <Link to="/login">
           <button className="px-3 text-sm w-36 h-8 rounded-xl bg-secondary text-white ">
             Login/Register

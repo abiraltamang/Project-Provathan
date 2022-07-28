@@ -38,7 +38,7 @@
 }
 
 .contact-form h2{
-  color: #fff;
+  color: rgb(0, 0, 0);
   text-align: center;
   font-size: 35px;
   text-transform: uppercase;
@@ -46,8 +46,7 @@
 }
 
 .contact-form .text-box{
-  background: #000;
-  color: #fff;
+  color: rgb(0, 0, 0);
   border: none;
   width: calc(50% - 10px);
   height: 50px;
@@ -64,8 +63,8 @@
 }
 
 .contact-form textarea{
-  background: #000;
-  color: #fff;
+  
+  color: rgb(0, 0, 0);
   border: none;
   width: 100%;
   padding: 12px;

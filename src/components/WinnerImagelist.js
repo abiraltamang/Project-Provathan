@@ -1,5 +1,5 @@
 import React from "react";
-import ImageList from "../events/ImageList";
+import ImageList from "./events/ImageList";
 
 const WinnerImagelist = () => {
   const itemData = [

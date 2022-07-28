@@ -1,7 +1,7 @@
 import React from "react";
 import Coverpage from "./Coverpage";
 import UpcomingEvents from "./UpcomingEvents";
-import WinnerImagelist from "./user/WinnerImagelist";
+import WinnerImagelist from "./WinnerImagelist";
 
 const Homepage = () => {
   return (
