@@ -10,6 +10,7 @@ import UpcomingEvents from "./components/UpcomingEvents";
 import Layout from "./components/Layout/Layout";
 import Categories from "./components/Categories";
 import Footer from "./components/Footer";
+
 function App() {
   return (
     <BrowserRouter>
