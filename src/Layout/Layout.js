@@ -1,7 +1,7 @@
 import React from "react";
-import Navbar from "../Navbar";
+import Navbar from "../components/Navbar";
 import { useLocation } from "react-router-dom";
-import Subcoverpage from "../reusable/Subcoverpage";
+import Subcoverpage from "../components/reusable/Subcoverpage";
 
 const Layout = ({ Children }) => {
   const router = useLocation();
