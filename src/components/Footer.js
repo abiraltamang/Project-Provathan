@@ -1,4 +1,3 @@
-import react from "react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -30,8 +29,75 @@ const Footer = () => {
                     <div>About Us</div>
                 </Link>
             </div>
+            <div>
+                <div className="text-lg font-bold pb-2">Social Media Links</div>
+                <div className="flex gap-2 pb-2">
+                    <div
+                    className={`relative h-12 w-12 object-center`}
+                    style={{
+                    backgroundImage: `url('/images/facebook-4-240.png')`,
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "cover",
+                    filter: "brightness(50%)",
+                    backgroundPosition: "center",
+                    }}
+                    ></div>
+                    <div
+                    className={`relative h-12 w-12 object-center`}
+                    style={{
+                    backgroundImage: `url('/images/instagram-4-240.png')`,
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "cover",
+                    filter: "brightness(50%)",
+                    backgroundPosition: "center",
+                    }}
+                    ></div>
+                    <div
+                    className={`relative h-12 w-12 object-center`}
+                    style={{
+                    backgroundImage: `url('/images/linkedin-4-240.png')`,
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "cover",
+                    filter: "brightness(50%)",
+                    backgroundPosition: "center",
+                    }}
+                    ></div>
+                </div>
+                <div className="flex gap-2">
+                    <div
+                    className={`relative h-12 w-12 object-center`}
+                    style={{
+                    backgroundImage: `url('/images/reddit-4-240.png')`,
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "cover",
+                    filter: "brightness(50%)",
+                    backgroundPosition: "center",
+                    }}
+                    ></div>
+                    <div
+                    className={`relative h-12 w-12 object-center`}
+                    style={{
+                    backgroundImage: `url('/images/twitter-4-240.png')`,
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "cover",
+                    filter: "brightness(50%)",
+                    backgroundPosition: "center",
+                    }}
+                    ></div>
+                    <div
+                    className={`relative h-12 w-12 object-center`}
+                    style={{
+                    backgroundImage: `url('/images/youtube-4-240.png')`,
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "cover",
+                    filter: "brightness(50%)",
+                    backgroundPosition: "center",
+                    }}
+                    ></div>
+                </div>
             </div>
-            <div className="text-center pt-14">
+            </div>
+            <div className="text-center pt-8">
                 NameHere.com © 2022 All rights reserved
             </div>
         </div>
