@@ -15,27 +15,6 @@
     @apply underline decoration-secondary underline-offset-8 decoration-[2px]
 }
 
-.footer-main {
-    color: #ffffff;
-    background-color: #282a35;
-    /* padding: 2em 2em;
-    position: relative;
-    height: 15em;
-    bottom: 0;
-    width: 100%; */
-}
-
-/* .footer-content {
-    display: flex;
-    justify-content: center;
-    gap: 15em;
-} */
-
-/* .foot-title {
-    padding-bottom: 0.5em;
-} */
-
-
 
 
 /** contactus page css */
