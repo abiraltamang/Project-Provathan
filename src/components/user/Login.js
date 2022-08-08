@@ -16,11 +16,12 @@ const Login = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    axios.post('http://localhost:8000/login', {
-      data: inputs
-    }).then((response) => {
-      console.log(response.data);
-    });
+    axios.post('http://localhost:8000/users/login', {
+      data: {
+        username: inputs.username,
+        password: inputs.password
+      }
+    }).then();
   };
 
   return (

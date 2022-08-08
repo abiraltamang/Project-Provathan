@@ -16,11 +16,13 @@ const Register = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    axios.post('http://localhost:8000/newUser', {
-      data: inputs
-    }).then((response) => {
-      console.log(response.data);
-    });
+    axios.post('http://localhost:8000/users/newUser', {
+      data: {
+        username: inputs.username,
+        email: inputs.email,
+        password: inputs.password
+      }
+    }).then();
   };
     
   return (
