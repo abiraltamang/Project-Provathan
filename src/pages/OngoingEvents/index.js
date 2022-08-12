@@ -22,8 +22,8 @@ const OngoingEvents = () => {
       </h2>
       <div className="grid grid-cols-4 gap-10 ">
         <OngoinEventCard author="Abiral Blon" image="/images/winner1.jpg" />
-        <OngoinEventCard author="Abiral Blon" image="/images/winner2.jpg" />
         <OngoinEventCard author="Abiral Blon" image="/images/winner3.jpg" />
+        <OngoinEventCard author="Abiral Blon" image="/images/winner2.jpg" />
         <OngoinEventCard author="Abiral Blon" image="/images/winner4.jpg" />
         <OngoinEventCard author="Abiral Blon" image="/images/winner5.jpg" />
         <OngoinEventCard author="Abiral Blon" image="/images/winner6.jpg" />
