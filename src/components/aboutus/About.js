@@ -1,9 +1,9 @@
 import React from "react";
 import "./style.css";
+import Ourteam from "./Ourteam";
+
 const Aboutus = () => {
-    return (
-        <h1> About Us</h1>
-    );
+  return <>This is aboutus page</>;
 };
 
 export default Aboutus;

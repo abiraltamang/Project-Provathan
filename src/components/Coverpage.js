@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Coverpage = () => {
   return (
@@ -25,8 +26,12 @@ const Coverpage = () => {
           itaque necessitatibus praesentium, laboriosam similique.
         </p>
         <div className="space-x-5 mt-4">
-          <button className="secondary-button">Participate</button>
-          <button className="secondary-button">Vote</button>
+          <Link to="upcomingevents">
+            <button className="secondary-button">Participate</button>
+          </Link>
+          <Link to="ongoingevents">
+            <button className="secondary-button">Vote</button>
+          </Link>
         </div>
       </div>
     </div>

@@ -1,3 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Jost:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* * {
+    margin: 0;
+    overflow-x: hidden;
+} */
+
+.secondary-button{
+    @apply border-[1px] border-white rounded-xl w-[120px] h-[35px] hover:bg-secondary hover:border-secondary
+}
+.style-activelink{
+    @apply underline decoration-secondary underline-offset-8 decoration-[2px]
+}
+
+
+
+/** contactus page css */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 *{
@@ -38,7 +58,7 @@
 }
 
 .contact-form h2{
-  color: #fff;
+  color: rgb(0, 0, 0);
   text-align: center;
   font-size: 35px;
   text-transform: uppercase;
@@ -46,8 +66,7 @@
 }
 
 .contact-form .text-box{
-  background: #000;
-  color: #fff;
+  color: rgb(0, 0, 0);
   border: none;
   width: calc(50% - 10px);
   height: 50px;
@@ -64,8 +83,8 @@
 }
 
 .contact-form textarea{
-  background: #000;
-  color: #fff;
+  
+  color: rgb(0, 0, 0);
   border: none;
   width: 100%;
   padding: 12px;

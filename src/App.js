@@ -1,22 +1,28 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import Login from "./components/user/Login";
-import Register from "./components/user/Register";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Contactus from "./components/contactus/Contactus";
-import Homepage from "./components/Homepage";
-import Aboutus from "./components/aboutus/Aboutus"
-import Footer from "./components/Footer"
-
+import Homepage from "./pages";
+import Aboutus from "./pages/Aboutus";
+import Upcomingevents from "./pages/Upcomingevents";
+import Layout from "./Layout/Layout";
+import Categories from "./pages/Categories";
+import Footer from "./components/Footer";
+import Contactus from "./pages/Contactus";
+import Signup from "./pages/Signup";
+import Signin from "./pages/Signin";
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />
+      <Layout />
       <Routes>
         <Route path="/" element={<Homepage />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/contactus" element={<Contactus image="/images/bg1.jpg" />} />
+        <Route path="/upcomingevents" element={<Upcomingevents />} />
+        <Route path="/categories" element={<Categories />} />
+        <Route path="/login" element={<Signin />} />
+        <Route path="/register" element={<Signup />} />
+        <Route
+          path="/contactus"
+          element={<Contactus image="/images/bg1.jpg" />}
+        />
         <Route path="/aboutus" element={<Aboutus />} />
       </Routes>
       <Footer />

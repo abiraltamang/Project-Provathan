@@ -14,7 +14,11 @@ module.exports = {
       "mid-dark": "#37474F",
       "dim-dark": "#ABABAB",
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "footer-image": "url('/images/4.jpg')",
+      },
+    },
   },
   plugins: [require("tw-elements/dist/plugin")],
 };

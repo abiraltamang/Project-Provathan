@@ -1,8 +1,7 @@
 import React from "react";
 import { Pagination } from "@mui/material";
-
 import EventCard from "./events/EventCard";
-const UpcomingEvents = () => {
+const Events = () => {
   return (
     <div>
       <div className="space-y-6">
@@ -45,4 +44,4 @@ const UpcomingEvents = () => {
   );
 };
 
-export default UpcomingEvents;
+export default Events;

@@ -7,6 +7,7 @@
 }
 
 .base-container {
+    background-image: url(/public/images/bg2.jpg);
     font-size: 20px;
     width: 100%;
     display: flex;
@@ -21,7 +22,6 @@
 }
 
 .base-container {
-    margin-top: 2em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,10 +32,13 @@
     flex-direction: column;
     align-items: flex-start;
     width: fit-content;
+    
+}
+.form-group input{
+    outline: none;
 }
 
 .base-container .content .form-group input {
-    margin-top: 6px;
     min-width: 18em;
     height: 37px;
     padding: 0px 10px;
