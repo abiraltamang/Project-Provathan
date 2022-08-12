@@ -109,13 +109,17 @@ const OngoinEventCard = ({ author, image }) => {
                         Total votes :{" "}
                         <span className="font-semibold">{votes}</span>{" "}
                       </p>
-
-                      <button
-                        className="px-3 text-sm w-36 h-8 rounded-xl bg-secondary text-white my-5"
-                        onClick={handleVoteCount}
-                      >
-                        Vote
-                      </button>
+                      <div className="space-x-5">
+                        <button
+                          className="px-3 text-sm w-36 h-8 rounded-xl bg-secondary text-white my-5"
+                          onClick={handleVoteCount}
+                        >
+                          Vote
+                        </button>
+                        <button className="px-3 text-sm w-36 h-8 rounded-xl bg-primary text-white my-5">
+                          Share
+                        </button>
+                      </div>
                     </div>
                   </div>
                 </Dialog.Panel>
