@@ -3,7 +3,7 @@ import SocialmediaIcons from "./icons/SocialmediaIcons";
 
 const Footer = () => {
   return (
-    <div className="bg-[#282a35] text-white pt-8 relative h-60 bottom-0 w-full mt-11 ">
+    <div className="bg-[#282a35] text-white pt-8 relative h-60 bottom-0 w-full ">
       <div className="grid grid-cols-5 gap-10 px-12">
         <div className="flex flex-col col-span-2">
           <Link to="/">
