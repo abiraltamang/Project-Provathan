@@ -15,10 +15,10 @@ const Contactus = ({ image }) => {
             <i className="fas fa-map-marker-alt"></i>Balkumari, Lalitpur, Nepal
           </div>
           <div>
-            <i className="fas fa-envelope"></i>arbin47.koirala@gmail.com
+            <i className="fas fa-envelope"></i>falano.nepal@gmail.com
           </div>
           <div>
-            <i className="fas fa-phone"></i>+977 9849645262
+            <i className="fas fa-phone"></i>+977 9849123456
           </div>
           <div>
             <i className="fas fa-clock"></i>Sun - Fri 8:00 AM to 5:00 PM

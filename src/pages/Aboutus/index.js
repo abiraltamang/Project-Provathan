@@ -13,7 +13,7 @@ const lists = [
     personName: "Arbin Koirala",
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias nam accusantium incidunt?",
-    image: "/images/arbin.jpg",
+    image: "/images/arbin1.png",
   },
   {
     personName: "Abiral Blon",
@@ -39,28 +39,28 @@ const Aboutus = () => {
         </h2>
         <div className="flex flex-wrap gap-12 py-9 items-center justify-around    ">
           <Ourteam
-            role={"Developer"}
+            role={"Leader"}
             personName="Abiral Blon"
-            description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias nam accusantium incidunt?"
-            image="/images/abiral.jpg"
+            description="email: abiral.blon@gmail.com phone no: 9808633373"
+            image="/images/abiral1.png"
           />
           <Ourteam
             personName="Arbin Koirala"
             role={"Developer"}
-            description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias nam accusantium incidunt?"
-            image="/images/abiral.jpg"
+            description="email: arbin.koirala@gmail.com phone no: 9849645262"
+            image="/images/arbin1.png"
           />
           <Ourteam
             personName="Deepti Basnet"
             role={"Developer"}
-            description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias nam accusantium incidunt?"
-            image="/images/abiral.jpg"
+            description="email: deepti.basnet@gmail.com phone no: 9808333333"
+            image="/images/deepti1.png"
           />
           <Ourteam
-            personName="Aaryashree"
-            role={"Developer"}
+            personName="Aarya Shree"
+            role={"Designer"}
             description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias nam accusantium incidunt?"
-            image="/images/abiral.jpg"
+            image="/images/aaryashree.jpg"
           />
         </div>
       </div>
