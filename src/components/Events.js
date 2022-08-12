@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Pagination } from "@mui/material";
 import EventCard from "./events/EventCard";
 const Events = () => {
@@ -8,13 +9,15 @@ const Events = () => {
         <h2 className="pl-11 py-5 text-dark text-3xl font-medium underline decoration-dim-dark underline-offset-8">
           Upcoming Events
         </h2>
-        <EventCard
-          image={"/images/theme1.jpg"}
-          title={"Environmental Photographer of the Year"}
-          description={
-            " The competition is open to all international photographers, both amateur and professional, and of all ages."
-          }
-        />
+        <Link to="/eventdetails">
+          <EventCard
+            image={"/images/theme1.jpg"}
+            title={"Environmental Photographer of the Year"}
+            description={
+              " The competition is open to all international photographers, both amateur and professional, and of all ages."
+            }
+          />
+        </Link>
         <EventCard
           image={"/images/theme2.jpg"}
           title={"The Allard Prize Photography Competition"}

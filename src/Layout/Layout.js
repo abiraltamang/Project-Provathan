@@ -37,6 +37,12 @@ const Layout = ({ Children }) => {
       detail = "This is about us page";
       image = "/images/1.jpg";
       break;
+    case "/eventdetails":
+      route = headername;
+      headName = "Event Details";
+      detail = "This is event details page";
+      image = "/images/7.jpg";
+      break;
 
     default:
       break;
