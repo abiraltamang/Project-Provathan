@@ -59,7 +59,7 @@ const Aboutus = () => {
           <Ourteam
             personName="Aarya Shree"
             role={"Designer"}
-            description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias nam accusantium incidunt?"
+            description="email: aarya.shree@gmail.com phone no: 9805322333"
             image="/images/aaryashree.jpg"
           />
         </div>

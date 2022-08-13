@@ -9,12 +9,11 @@ const Footer = () => {
           <Link to="/">
             <div className="flex items-center ">
               <img className="h-20 w-20" src="logo192.png" alt="" />
-              <p className="text-lg text-center">Name</p>
+              <p className="text-lg text-center">Travel Nepal</p>
             </div>
           </Link>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            alias temporibus deserunt enim culpa magni.
+            For Travel Enthusiasts
           </p>
         </div>
         <div>
