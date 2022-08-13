@@ -25,17 +25,17 @@ const Categories = () => {
             themeDesc=" This is theme description. we include description here. dfkjdf fdfdf dsfsdsf dofosadfjsadf dsfa "
           />
           <Themecard
-            themeTitle="Lifestock in Mustang"
+            themeTitle="Faith"
             themeImage="/images/1.jpg"
             themeDesc=" This is theme description. we include description here. dfkjdf fdfdf dsfsdsf dofosadfjsadf dsfa "
           />
           <Themecard
-            themeTitle="Lifestock in Mustang"
+            themeTitle="Life in Gandaki"
             themeImage="/images/2.jpg"
             themeDesc=" This is theme description. we include description here. dfkjdf fdfdf dsfsdsf dofosadfjsadf dsfa "
           />
           <Themecard
-            themeTitle="Lifestock in Mustang"
+            themeTitle="Subject in Nature "
             themeImage="/images/bg2.jpg"
             themeDesc=" This is theme description. we include description here. dfkjdf fdfdf dsfsdsf dofosadfjsadf dsfa "
           />
